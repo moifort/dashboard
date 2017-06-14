@@ -1,0 +1,14 @@
+mozaik:
+  build: ./mozaik
+  container_name: dashboard
+  restart: unless-stopped
+  ports:
+    - 80:5000
+  links:
+    - crawler:crawler
+
+crawler:
+  build: ./crawler
+  container_name: crawler
+  restart: unless-stopped
+  

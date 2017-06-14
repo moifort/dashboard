@@ -48,7 +48,7 @@ var config = {
  {
     type:               'value.value',
     title:              'KissKissBankBank',
-    url:                'http://localhost:8080/kkbb/collect',
+    url:                'http://crawler:8080/kkbb/collect',
     postfix:            '€',
     columns: 2, rows: 2,
     x: 0, y: 0
@@ -56,7 +56,7 @@ var config = {
 {
     type:               'value.value',
     title:              'KissKissBankBank',
-    url:                'http://localhost:8080/kkbb/backers',
+    url:                'http://crawler:8080/kkbb/backers',
     postfix:            ' Bakers',
     columns: 2, rows: 2,
     x: 2, y: 0
