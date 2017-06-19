@@ -1,5 +1,5 @@
-mozaik:
-  build: ./mozaik
+pup-dashboard:
+  image: pupscan/dashboard:latest
   container_name: dashboard
   restart: unless-stopped
   ports:
@@ -8,7 +8,7 @@ mozaik:
     - crawler:crawler
 
 crawler:
-  build: ./crawler
+  image: pupscan/dashboard-crawler:latest
   container_name: crawler
   restart: unless-stopped
   
