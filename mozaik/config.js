@@ -66,7 +66,7 @@ var config = {
                     title:              'Indiegogo',
                     url:                'https://api.indiegogo.com/1/campaigns/1918821.json?api_token=16e63457e7a24c06d39b40b52c0df273098cab82ccd3d4abaafd1a9c7a4edfe7',
                     pathCurrent:        '$.response.contributions_count',
-                    postfix:            'Bakers',
+                    postfix:            ' Bakers',
                     columns: 2, rows: 2,
                     x: 0, y: 2
                 },
@@ -75,7 +75,7 @@ var config = {
                     title:              'Indiegogo',
                     url:                'https://api.indiegogo.com/1/campaigns/1918821.json?api_token=16e63457e7a24c06d39b40b52c0df273098cab82ccd3d4abaafd1a9c7a4edfe7',
                     pathCurrent:        '$.response.collected_funds',
-                    postfix:            ' Bakers',
+                    postfix:            ' $',
                     columns: 2, rows: 2,
                     x: 2, y: 2
                 }
