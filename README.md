@@ -1,9 +1,8 @@
-# Mozaïk demo dashboards
+# Crawfunding dashboard
 
-[![Travis CI][travis-image]][travis-url]
+Display funding and number of backers for the PUP
 
-This repository shows how to use Mozaïk with npm extensions, [installation instructions](http://mozaik.rocks/v1/use/).
+## How To
 
-[travis-image]: https://img.shields.io/travis/plouc/mozaik-demo.svg?style=flat-square
-[travis-url]: https://travis-ci.org/plouc/mozaik-demo
-
+- Run `docker-compose up`
+- Go to http://localhost:80
