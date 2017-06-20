@@ -49,7 +49,6 @@ var config = {
                     type:               'value.value',
                     title:              'KissKissBankBank',
                     url:                'http://crawler:8080/kkbb/collect',
-                    lastUpdatedFormat:  'YYYY-MM-DD hh:mm:ss',
                     postfix:            ' €',
                     columns: 2, rows: 2,
                     x: 0, y: 0
@@ -58,16 +57,6 @@ var config = {
                     type:               'value.value',
                     title:              'KissKissBankBank',
                     url:                'http://crawler:8080/kkbb/backers',
-                    lastUpdatedFormat:  'YYYY-MM-DD hh:mm:ss',
-                    postfix:            ' Bakers',
-                    columns: 2, rows: 2,
-                    x: 2, y: 0
-                },
-                {
-                    type:               'value.value',
-                    title:              'Indiegogo',
-                    url:                'http://crawler:8080/indiegogo/backers',
-                    lastUpdatedFormat:  'YYYY-MM-DD hh:mm:ss',
                     postfix:            ' Bakers',
                     columns: 2, rows: 2,
                     x: 0, y: 2
@@ -75,11 +64,18 @@ var config = {
                 {
                     type:               'value.value',
                     title:              'Indiegogo',
-                    url:                'http://crawler:8080/indiegogo/collect',
-                    lastUpdatedFormat:  'YYYY-MM-DD hh:mm:ss',
-                    postfix:            ' $',
+                    url:                'http://crawler:8080/indiegogo/backers',
+                    postfix:            ' Bakers',
                     columns: 2, rows: 2,
                     x: 2, y: 2
+                },
+                {
+                    type:               'value.value',
+                    title:              'Indiegogo',
+                    url:                'http://crawler:8080/indiegogo/collect',
+                    postfix:            ' $',
+                    columns: 2, rows: 2,
+                    x: 2, y: 0
                 }
             ]
         }
