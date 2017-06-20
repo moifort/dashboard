@@ -66,7 +66,7 @@ var config = {
                 {
                     type:               'value.value',
                     title:              'Indiegogo',
-                    url:                'http://crawler:8080/indiegogo/collect',
+                    url:                'http://crawler:8080/indiegogo/backers',
                     lastUpdatedFormat:  'YYYY-MM-DD hh:mm:ss',
                     postfix:            ' Bakers',
                     columns: 2, rows: 2,
@@ -75,7 +75,7 @@ var config = {
                 {
                     type:               'value.value',
                     title:              'Indiegogo',
-                    url:                'http://crawler:8080/indiegogo/backers',
+                    url:                'http://crawler:8080/indiegogo/collect',
                     lastUpdatedFormat:  'YYYY-MM-DD hh:mm:ss',
                     postfix:            ' $',
                     columns: 2, rows: 2,
