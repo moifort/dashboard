@@ -50,6 +50,7 @@ var config = {
                     title:              'KissKissBankBank',
                     url:                'http://crawler:8080/kkbb/collect',
                     postfix:            ' €',
+                    lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
                     columns: 2, rows: 2,
                     x: 0, y: 0
                 },
@@ -58,6 +59,7 @@ var config = {
                     title:              'KissKissBankBank',
                     url:                'http://crawler:8080/kkbb/backers',
                     postfix:            ' Bakers',
+                    lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
                     columns: 2, rows: 2,
                     x: 0, y: 2
                 },
@@ -66,6 +68,7 @@ var config = {
                     title:              'Indiegogo',
                     url:                'http://crawler:8080/indiegogo/backers',
                     postfix:            ' Bakers',
+                    lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
                     columns: 2, rows: 2,
                     x: 2, y: 2
                 },
@@ -74,6 +77,7 @@ var config = {
                     title:              'Indiegogo',
                     url:                'http://crawler:8080/indiegogo/collect',
                     postfix:            ' $',
+                    lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
                     columns: 2, rows: 2,
                     x: 2, y: 0
                 }
