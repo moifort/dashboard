@@ -76,7 +76,7 @@ var config = {
                     type:               'value.value',
                     title:              'Indiegogo',
                     url:                'http://crawler:8080/indiegogo/collect',
-                    postfix:            ' $',
+                    prefix:            '$ ',
                     lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
                     columns: 2, rows: 2,
                     x: 2, y: 0
