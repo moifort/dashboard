@@ -42,8 +42,8 @@ var config = {
         // first dashboard
         {
             // 4 x 3 dashboard
-            columns: 4,
-            rows:    3,
+            columns: 8,
+            rows:    6,
             widgets: [
                 {
                     type:               'value.value',
@@ -51,7 +51,7 @@ var config = {
                     url:                'http://crawler:8080/kkbb/collect',
                     postfix:            ' €',
                     lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
-                    columns: 1, rows: 1,
+                    columns: 2, rows: 2,
                     x: 0, y: 0
                 },
                 {
@@ -60,8 +60,8 @@ var config = {
                     url:                'http://crawler:8080/kkbb/backers',
                     postfix:            ' Bakers',
                     lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
-                    columns: 1, rows: 1,
-                    x: 0, y: 1
+                    columns: 2, rows: 2,
+                    x: 0, y: 2
                 },
                 {
                     type:               'value.value',
@@ -69,8 +69,8 @@ var config = {
                     url:                'http://crawler:8080/indiegogo/collect',
                     prefix:            '$ ',
                     lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
-                    columns: 1, rows: 1,
-                    x: 1, y: 0
+                    columns: 2, rows: 2,
+                    x: 2, y: 0
                 },
                 {
                     type:               'value.value',
@@ -78,8 +78,8 @@ var config = {
                     url:                'http://crawler:8080/indiegogo/backers',
                     postfix:            ' Bakers',
                     lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
-                    columns: 1, rows: 1,
-                    x: 1, y: 1
+                    columns: 2, rows: 2,
+                    x: 2, y: 2
                 },
                 {
                     type:               'value.value',
@@ -87,8 +87,8 @@ var config = {
                     url:                'http://crawler:8080/facebook/favorites',
                     postfix:            ' Likes',
                     lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
-                    columns: 1, rows: 1,
-                    x: 2, y: 0
+                    columns: 2, rows: 2,
+                    x: 4, y: 0
                 },
                 {
                     type:               'value.value',
@@ -96,8 +96,8 @@ var config = {
                     url:                'http://crawler:8080/twitter/favorites',
                     postfix:            ' Likes',
                     lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
-                    columns: 1, rows: 1,
-                    x: 2, y: 1
+                    columns: 2, rows: 2,
+                    x: 4, y: 2
                 }
             ]
         }
