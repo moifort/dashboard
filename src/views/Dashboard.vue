@@ -60,17 +60,20 @@
     created () {
       axios.get(`http://localhost:8080/facebook/current`)
         .then(response => {
-          this.facebook = response.data
-        })
-      axios.get(`http://localhost:8080/facebook/favorites`)
-        .then(response => {
-          this.last7daysFavorites = [99, 110, 9, 17]
+          this.last7daysFavorites = response.data
           this.isLoaded = true
+          console.log('moi')
         })
-      axios.get(`http://localhost:8080/twitter`)
-        .then(response => {
-          this.twitter = response.data
-        })
+
+//      axios.get(`http://localhost:8080/facebook/favorites`)
+//        .then(response => {
+//          this.last7daysFavorites = [99, 110, 9, 17]
+//          this.isLoaded = true
+//        })
+//      axios.get(`http://localhost:8080/twitter`)
+//        .then(response => {
+//          this.twitter = response.data
+//        })
     }
   }
 </script>
