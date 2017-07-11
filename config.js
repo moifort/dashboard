@@ -58,7 +58,7 @@ var config = {
                     type:               'value.value',
                     title:              'KissKissBankBank',
                     url:                'http://crawler:8080/kkbb/backers',
-                    postfix:            ' Backers',
+                    postfix:            ' 👤',
                     lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
                     columns: 2, rows: 1,
                     x: 0, y: 1
@@ -76,7 +76,7 @@ var config = {
                     type:               'value.value',
                     title:              'Indiegogo',
                     url:                'http://crawler:8080/indiegogo/backers',
-                    postfix:            ' Backers',
+                    postfix:            ' 👤',
                     lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
                     columns: 2, rows: 1,
                     x: 2, y: 1
@@ -85,7 +85,7 @@ var config = {
                     type:               'value.value',
                     title:              'Facebook',
                     url:                'http://crawler:8080/facebook/favorites',
-                    postfix:            ' Likes',
+                    postfix:            ' 👍🏻',
                     lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
                     columns: 2, rows: 1,
                     x: 4, y: 0
@@ -94,7 +94,7 @@ var config = {
                     type:               'value.value',
                     title:              'Twitter',
                     url:                'http://crawler:8080/twitter/favorites',
-                    postfix:            ' Likes',
+                    postfix:            ' 👍🏻',
                     lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
                     columns: 2, rows: 1,
                     x: 4, y: 1
