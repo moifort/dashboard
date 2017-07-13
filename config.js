@@ -93,8 +93,8 @@ var config = {
                 {
                     type:               'value.value',
                     title:              'Twitter',
-                    url:                'http://crawler:8080/twitter/favorites',
-                    postfix:            ' Likes',
+                    url:                'http://crawler:8080/twitter/followers',
+                    postfix:            ' Folw',
                     lastUpdatedFormat:  'YYYY-MM-DD HH:mm:ss',
                     columns: 2, rows: 1,
                     x: 4, y: 1
