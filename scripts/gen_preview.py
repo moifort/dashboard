@@ -19,8 +19,8 @@ os.environ.setdefault("DB_PATH", str(ROOT / "data" / "linky.db"))
 os.environ.setdefault("CRYPTO_API_URL", "http://192.168.1.199:3003/graphql")
 os.environ.setdefault("CRYPTO_API_TOKEN", "374CACE6-5E4E-456A-8BF7-93E689382C9C")
 
-import server  # noqa: E402  (env must be set first)
-from renderer import render_dashboard  # noqa: E402
+from app import server  # noqa: E402  (env must be set first)
+from app.rendering.renderer import render_dashboard  # noqa: E402
 
 # Show panels backed by cached DB history even though their live integrations
 # need credentials we don't have here. Only enable those whose table exists in
